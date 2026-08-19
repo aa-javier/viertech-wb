@@ -134,7 +134,7 @@ poll protocol details.
 
 ## Vier API
 
-`VierApi` comes from `@viertechjd/api`:
+`VierApi` comes from `@viertechjs/api`:
 
 ```js
 const api = new VierApi({
@@ -149,7 +149,7 @@ const api = new VierApi({
 - `VierApi` public export added
 - native StickerPack helper added
 - generic Poll helper added
-- repository metadata moved to `viertech/wb`
+- repository metadata moved to `viertechjs/wb`
 
 ## Compatibility note
 
