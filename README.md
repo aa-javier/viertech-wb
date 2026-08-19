@@ -2,7 +2,7 @@
 
 VierTech-maintained WhatsApp Bot toolkit for Baileys.
 
-This package is a modified fork of `@neoxr/wb`. The original MIT copyright
+This package is a modified fork. The original MIT copyright
 and permission notice are preserved in [`LICENSE`](./LICENSE). See
 [`NOTICE`](./NOTICE) for fork attribution.
 
@@ -15,7 +15,7 @@ npm install @viertechjs/wb
 ```
 
 The WhatsApp application must also use a compatible `baileys` package.
-`@viertech/wb` declares Baileys as a peer dependency so the app and helper
+`@viertechjs/wb` declares Baileys as a peer dependency so the app and helper
 share one protocol/runtime copy.
 
 ## Public exports
