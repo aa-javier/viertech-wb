@@ -1,5 +1,5 @@
 {
-  "name": "@viertech/wb",
+  "name": "@viertechjs/wb",
   "version": "6.0.0-vier.3",
   "description": "VierTech WhatsApp Bot toolkit for Baileys",
   "main": "lib/index.js",
@@ -57,7 +57,7 @@
     "rootpath": "^0.1.2",
     "sharp": "0.34.5",
     "syntax-error": "~1.4.0",
-    "@viertech/api": "^1.0.0",
+    "@viertechjs/api": "^1.0.0",
     "fflate": "^0.8.2"
   },
   "peerDependencies": {
