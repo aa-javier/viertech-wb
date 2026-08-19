@@ -12,25 +12,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viertech/wb.git"
+    "url": "git+https://github.com/aa-javier/viertech-wb.git"
   },
+  "bugs": {
+    "url": "https://github.com/aa-javier/viertech-wb/issues"
+  },
+  "homepage": "https://github.com/aa-javier/viertech-wb#readme",
   "keywords": [
     "whatsapp",
     "whatsapp-bot",
     "baileys",
     "bot",
     "viertech",
+    "viertechjs",
     "wabot"
   ],
   "author": "VierTech Solutions",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/viertech/wb/issues"
-  },
-  "homepage": "https://github.com/viertech/wb#readme",
   "dependencies": {
     "@cacheable/node-cache": "~3.0.1",
     "@neoxr/helper": "latest",
+    "@viertechjs/api": "^1.0.0",
     "awesome-phonenumber": "~2.59.0",
     "bytes": "^3.1.2",
     "chalk": "4.1.0",
@@ -39,6 +41,7 @@
     "crypto-digest-sync": "^1.0.0",
     "date-fns": "^4.1.0",
     "dotenv": "^16.0.1",
+    "fflate": "^0.8.2",
     "file-type": "~16.5.2",
     "flatted": "^3.3.3",
     "fluent-ffmpeg": "~2.1.3",
@@ -56,20 +59,21 @@
     "qrcode-terminal": "^0.12.0",
     "rootpath": "^0.1.2",
     "sharp": "0.34.5",
-    "syntax-error": "~1.4.0",
-    "@viertechjs/api": "^1.0.0",
-    "fflate": "^0.8.2"
+    "syntax-error": "~1.4.0"
   },
   "peerDependencies": {
+    "baileys": ">=6.0.0",
     "better-sqlite3": "12.1.1",
     "mongodb": "4.9.0",
     "mysql2": "3.12.0",
     "pg": "8.13.1",
     "redis": "5.8.3",
-    "sharp": "0.34.5",
-    "baileys": ">=6.0.0"
+    "sharp": "0.34.5"
   },
   "peerDependenciesMeta": {
+    "baileys": {
+      "optional": false
+    },
     "better-sqlite3": {
       "optional": true
     },
@@ -81,9 +85,6 @@
     },
     "redis": {
       "optional": true
-    },
-    "baileys": {
-      "optional": false
     }
   },
   "devDependencies": {
