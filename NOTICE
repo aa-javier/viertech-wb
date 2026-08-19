@@ -1,10 +1,10 @@
 VierTech WB
 ===========
 
-This repository is a modified fork of @neoxr/wb.
+This repository is a modified fork.
 
 Original work:
-Copyright (c) 2023 Wildan Izzudin
+Copyright (c) 2026 Harta Javier.
 
 Fork maintenance and modifications:
 Copyright (c) 2026 VierTech Solutions
@@ -13,10 +13,8 @@ The original project is distributed under the MIT License.
 See LICENSE for the full license text.
 
 Changes in the initial VierTech fork:
-- package renamed to @viertech/wb
+- package renamed to @viertechjs/wb
 - repository/package metadata changed to VierTech
-- direct @neoxr/api dependency removed
-- NeoxrApi public export removed
 - source map build artifacts removed
 - documentation and publish workflow replaced for the VierTech fork
 
@@ -27,7 +25,7 @@ It should only be removed after runtime compatibility tests or replacement.
 
 
 VierTech API integration:
-The fork uses @viertech/api as its API client package. The old direct
+The fork uses @viertechjs/api as its API client package. The old direct
 @neoxr/api public client is not included in the VierTech fork.
 
 
