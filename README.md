@@ -1,4 +1,4 @@
-# @viertech/wb
+# @viertechjs/wb
 
 VierTech-maintained WhatsApp Bot toolkit for Baileys.
 
@@ -8,10 +8,10 @@ and permission notice are preserved in [`LICENSE`](./LICENSE). See
 
 ## Install
 
-Publish `@viertech/api` first, then:
+Publish `@viertechjs/api` first, then:
 
 ```bash
-npm install @viertech/wb
+npm install @viertechjs/wb
 ```
 
 The WhatsApp application must also use a compatible `baileys` package.
@@ -30,7 +30,7 @@ const {
   VierApi,
   StickerPack,
   Poll
-} = require('@viertech/wb')
+} = require('@viertechjs/wb')
 ```
 
 ## Sticker Pack
@@ -129,12 +129,12 @@ It handles:
 - `getAggregateVotesInPollMessage`
 - normalized selected option
 
-Game rules remain outside `@viertech/wb`; the package only handles WhatsApp
+Game rules remain outside `@viertechjs/wb`; the package only handles WhatsApp
 poll protocol details.
 
 ## Vier API
 
-`VierApi` comes from `@viertech/api`:
+`VierApi` comes from `@viertechjd/api`:
 
 ```js
 const api = new VierApi({
@@ -144,10 +144,8 @@ const api = new VierApi({
 
 ## VierTech changes
 
-- package renamed to `@viertech/wb`
-- direct `@neoxr/api` dependency removed
-- `NeoxrApi` public export removed
-- `@viertech/api` added
+- package renamed to `@viertechjs/wb`
+- `@viertechjs/api` added
 - `VierApi` public export added
 - native StickerPack helper added
 - generic Poll helper added
