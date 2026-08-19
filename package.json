@@ -1,6 +1,6 @@
 {
   "name": "@viertechjs/wb",
-  "version": "6.0.0-vier.3",
+  "version": "6.0.0-vier.4",
   "description": "VierTech WhatsApp Bot toolkit for Baileys",
   "main": "lib/index.js",
   "files": [
